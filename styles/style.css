@@ -1,0 +1,460 @@
+/* Universal reset and setting required fonts  */
+
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+    color: #131313;
+
+}
+
+/* color variables */
+
+:root 
+{
+    --bgc: rgba(255, 144, 14, 0.1);
+    --orgc: #FF900E;
+    --ashc: #727272;
+
+}
+
+/* Navbar and header section styles */
+
+/* Navbar styles */
+
+.nav-and-header
+{
+    max-width: 1920px;
+    margin: 0 auto;
+    height: 1400px;
+    background-color: var(--bgc);
+}
+
+.page-name
+{
+    width: 302px;
+    height: 53px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.navbar
+{
+    max-width: 1453px;
+    margin: 0 auto;
+    padding-top: 44px;
+    margin-bottom: 120px;
+    height: 57px;
+    /* background-color: white; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-contents-list
+{
+    display: flex;
+    gap: 60px;
+    list-style: none;
+}
+
+.nav-contents-list a
+{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/* header styles */
+
+.header-title-container
+{
+    max-width: 862px;
+    margin: 0 auto;
+    height: 225px;
+}
+
+.header-title
+{
+    font-weight: 700;
+    font-size: 64px;
+    margin-bottom: 42px;
+    text-align: center;
+}
+
+.header-title-description p
+{
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 32px;
+    text-align: center;
+    color: var(--ashc);
+}
+
+.button
+{
+    display: flex;
+    justify-content: center;
+}
+
+.btn
+{
+    background-color: var(--orgc);
+    width: 180px;
+    height: 64px;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: none;
+    margin-bottom: 50px;
+}
+
+.header-picture
+{
+    display: flex;
+    justify-content: center;
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 700px;
+
+}
+
+/* features section styles */
+
+.features-container
+{
+    max-width: 1318px;
+    margin: 80px auto 130px auto;
+    height: 715px;
+    display: flex;
+}
+
+.image-container
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:24px;
+    grid-column-gap: 24px;
+    margin-right: 73px;
+}
+
+.quick-list-container
+{
+    width: 537px;
+    height: 304px;
+    /* background-color:grey; */
+    margin: 202px auto 0 auto;
+}
+
+.quick-list-title
+{
+    width: 468px;
+    height: 106px;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 24px;
+}
+
+.quick-list-description
+{
+    width: 537px;
+    height: 78px;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--ashc);
+    margin-bottom: 32px;
+}
+
+/* features enjoy section styles */
+
+.features-enjoy
+{
+    display: flex;
+}
+
+.writing-section
+{
+    /* background-color: grey; */
+    width: 586px;
+    height: 982px;
+    margin-right: 54px;
+}
+
+.picture-section
+{
+    width: 800px;
+    height: 1059px;
+    /* background-color: grey; */
+}
+
+.features-enjoy
+{
+    max-width: 1440px;
+    margin: 0 auto 120px auto;
+    height: 1059px;
+    /* background-color: lightblue; */
+}
+
+.urgent-flex
+{
+    display: flex;
+}
+
+.orange-line
+{
+    height: 106px;
+    width: 5px;
+    background-color: var(--orgc);
+    margin-right: 21px;
+}
+
+.features-enjoy-title
+{
+    width: 468px;
+    height: 106px;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 24px;
+}
+
+.features-enjoy-description p
+{
+    width: 586px;
+    height: 78px;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--ashc);
+    margin-bottom: 30px;
+}
+
+.box
+{
+    width: 586px;
+    height: 171px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    margin-bottom: 30px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding-left: 20px;
+}
+
+.box-title h4
+{
+    width: 252px;
+    height: 23px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.box-description p
+{
+    width: 514px;
+    height: 78px;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--ashc);
+}
+
+.picture-section-container
+{
+    width: 800px;
+    height: 1059px;
+    /* background-color: #727272; */
+    display: flex;
+    justify-content: end;
+    position: relative;
+}
+
+.picture-section
+{
+
+    width: 708px;
+    height: 982px;
+    position: relative;
+
+}
+
+.btn-2
+{
+    width: 342px;
+    height: 200px;
+    background-color: var(--orgc);
+    position: absolute;
+    bottom: 0px;
+    right: 458px;
+    border-radius: 8px;
+    border-style: none;
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+}
+
+/* styles for some facts */
+
+.facts-container
+{
+    /* background-color: lightblue; */
+    height: 118px ;
+    max-width: 550px; ;
+    margin: 0 auto 110px 230px;
+}
+
+.facts-title
+{
+    width: 258px;
+    height: 53px;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.facts-description p
+{
+    width: 542px;
+    height: 52px;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--ashc);
+}
+
+/* styles for animation boxes */
+
+.animation-box-container
+{
+    max-width: 1340px;
+    height: 242px;
+    margin: 0 auto 180px auto;
+    /* background-color: lightblue; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.animation-box
+{
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    height: 242px;
+    width: 242px;
+}
+
+/* making animations */
+
+@keyframes tilt-and-move-shaking
+{
+    0% {transform:translate(0,0) rotate(0deg);}
+    15% {transform:translate(5px,5px) rotate(5deg);}
+    35% {transform:translate(0,0) rotate(0eg); }
+    75% {transform:translate(-5px,5px) rotate(-5deg);}
+    100% {transform: translate(0,0) rotate(0deg);}
+}
+
+.box-element-holder .animation-box
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.animation-box:hover
+{
+    animation: tilt-and-move-shaking 0.25s infinite;
+}
+
+.icon
+{
+    height: 46px;
+    width: 46px;
+    margin-bottom: 13px;
+}
+
+.number
+{
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 6px;
+}
+
+.writing
+{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* sponsors section styles */
+
+.sponsor-1-container
+{
+    max-width: 542px;
+    margin: 0 auto 50px auto;
+    height: 129px;
+    /* background-color: lightblue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;
+}
+
+.sponsors-title
+{
+    width: 327px;
+    height: 53px;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 24px; 
+}
+
+.sponsors-description p
+{
+    font-weight: 400;
+    font-size: 16px;
+    width: 542px;
+    height: 52px;
+    color: var(--ashc);
+}
+
+.sponsor-2-container
+{
+    max-width: 1440px;
+    margin: 0 auto 130px auto;
+    height: 50px;
+    /* background-color: lightblue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sponsor-2-container img
+{  
+    filter: grayscale(100%);
+}
+
+/* footer styles */
+
+.footer-container
+{
+    max-width: 1440px;
+    height: 100px;
+    margin: 0 auto 216px auto;
+    background-color: var(--bgc);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.footer-container p
+{
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--ashc);
+}
